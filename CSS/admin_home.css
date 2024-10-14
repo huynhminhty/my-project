@@ -1,0 +1,29 @@
+.container_home_admin{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+.txt_levent {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: wheat;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* Thêm padding và margin để tạo khoảng cách */
+    padding: 10px;
+    margin: 0;
+}
+
+/* Thêm một border để làm đôi nét với màu khác */
+.txt_levent::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: wheat;
+    margin-top: 10px;
+}

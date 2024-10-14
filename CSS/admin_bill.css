@@ -1,0 +1,44 @@
+.table_product{
+    width: 100%;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white    ;
+}
+table{
+    border-collapse: collapse;
+}
+.table_product th,td{
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #30363f;
+}
+.container_account_admin  label{
+    font-size: 1.3rem;
+}
+label{
+    color: chartreuse;
+}
+.tool{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+}
+.tool .input_seach{
+    width: 300px;
+    padding: 5px 20px 5px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.tool .btn_search{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

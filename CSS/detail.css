@@ -1,0 +1,105 @@
+.container_all{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.container_img_product{
+    display: block;
+    width: 500px;
+    overflow: auto;
+}
+.container_img_product,
+.container_info_product {
+    height: 600px; /* Đặt chiều cao của container */
+    overflow-y: auto; /* Chỉ cuộn theo chiều dọc nếu nội dung vượt quá chiều cao */
+}
+.container_img_product img{
+    width: 100%;
+    max-width: 500px;
+}
+.container_info_product{
+    width: 50%;
+    padding: 0 30px;
+}
+.product_name,
+.product_price{
+    margin: 10px 0 10px 0;
+    font-size: 1.5rem;
+}
+.txt{
+    margin-bottom: 1rem;
+}
+.wrap-size {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-radio {
+    margin-right: 2rem;
+    display: block;
+    margin-bottom: 2rem;
+    user-select: none;
+}
+.item-radio .m-radio-label {
+    border: 1px solid rgba(112, 112, 112, 0.3);
+    padding: 0.3rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.product_quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.shop-dt__qan {
+    margin-right: 10px;
+}
+
+.quantity_select {
+    display: flex;
+    align-items: center;
+}
+
+.minus_quantity,
+.plus_quantity {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.minus_quantity:hover,
+.plus_quantity:hover {
+    background-color: #ddd;
+}
+
+.number {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rs-form {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+/* .amoVal {
+    -moz-appearance: textfield;
+} */
+
+.amoVal::-webkit-inner-spin-button,
+.amoVal::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.shop-dt__btn {
+    padding: 5px;
+    width: 23rem;
+    margin-right: 1rem;
+    background-color: #47474c;
+    color: white;
+}

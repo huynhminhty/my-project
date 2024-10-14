@@ -1,0 +1,121 @@
+.header{
+    padding: 10px;
+}
+.intro{
+    width: 100%;
+    height: 530px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro img{
+    width: 1000px;
+    height: 530px;
+    max-width: 1300px;
+    max-height: 530px;
+    position:absolute;
+    transition: opacity 0.5s ease-in-out;
+}
+#image2,#image3 {
+    opacity: 0;
+    z-index: -1; /* Ẩn ảnh thứ hai bên dưới ảnh đầu tiên */
+}
+.header_special{
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+.header_special h1{
+    font-size: 1.3rem;
+    padding: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+/* Thay đổi màu sắc của nút điều hướng */
+.slider-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Định dạng slider container */
+.list_BST {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%; /* Đặt chiều rộng tối đa của slider */
+    margin: auto;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+  
+  /* Ẩn mũi tên khi không hover */
+.slider-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+  
+  /* Hiển thị mũi tên khi hover */
+.list_BST:hover .slider-btn {
+    opacity: 1;
+    z-index: 50;
+}
+
+/* Định dạng slider container */
+.slider {
+    width: 80%;
+}
+
+/* Định dạng ảnh trong slider */
+.slider img {
+    height: 570px;
+    border: 2px solid #fff; /* Đặt đường viền trắng xung quanh ảnh */
+    border-radius: 8px; /* Bo góc ảnh */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiển thị bóng đổ nhẹ */
+}
+.detail{
+    width: 100%;
+    height: auto;
+}
+.detail h1{
+    font-size: 1.3rem;
+    padding: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.deatail__product{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.product-list{
+    width: 80%;
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+.k_a{
+    display: flex;
+    justify-content: center;
+}
+.detail__show_add{
+    display: unset;
+    padding: 10px;
+    color: #000;
+    border: 1px solid black;
+    background-color: white;
+    text-decoration: none;
+}

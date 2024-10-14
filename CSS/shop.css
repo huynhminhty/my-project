@@ -1,0 +1,64 @@
+.search{
+    padding: 10px;
+}
+.shop_overplay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    background-color: rgba( 0, 0, 0, 0.2);
+    transition: 0.3s;
+    z-index: 1;
+}
+.search_product{
+    margin: 10px 0 0 0;
+    display: none;
+    width: 100%;
+    border: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.search_filter{
+    display: none;
+}
+.search_filter:checked ~ .shop_overplay,
+.search_filter:checked ~ .search_product{
+    display: block;
+}
+.list_search_item{
+    display: none;
+}
+.filter_shirt:checked ~ .list_search_item,
+.filter_trousers:checked ~ .list_search_item{
+    display: block;
+}
+
+.search_product ul,li{
+    list-style-type: none;  
+}
+.list_search,.list_search_item{
+    margin: 0 30px 0 30px;
+}
+.list_product,.list_product_item{
+    padding: 20px;
+}
+.list_product_item{
+    padding: 5px;
+    color: rgb(170, 170, 170);
+}   
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+}
+.list_search_item a{
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    transition: 0.5s ease;
+}
+.list_search_item a:hover{
+    color: black;
+}

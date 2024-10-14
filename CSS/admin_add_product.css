@@ -1,0 +1,37 @@
+.container_add_product_admin p{
+    text-align: center;
+}
+.form{
+    display: grid;
+    text-align: center;
+}
+.form__product{
+    border-bottom: 1px solid #c0c0c0;
+    padding: 0.5rem;
+    margin: 0 2rem 1.5rem 2rem;
+    font-size: 0.8rem;
+    color: white;
+    background: fixed;
+    border-radius: 10px;
+    background-color: #30363f;
+}
+.btn_add{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(0, 255, 76);
+
+}
+.form p1{
+    display: flex;
+    color: white;   
+    margin-left: 33px;
+}
+.table_product{
+    font-size: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+.btn_product{
+    background-color: black;
+}

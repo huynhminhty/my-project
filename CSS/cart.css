@@ -1,0 +1,51 @@
+.form_cart{
+    display: flex;
+    justify-content: space-around;
+}
+.container_detail_cart,.container_info_ship{
+    width: 40%;
+}
+.container_detail_cart_product{
+    max-height: 600px;
+    overflow-y: auto;
+}
+.txt_title{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.product,.fl_ct{
+    display: flex;
+    align-items: center;
+}
+.wrap_title,.txt,.fl_ct{
+    margin: 15px 0 15px 0;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+.cart__info{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.fl_ct{ 
+    justify-content: space-between;
+}
+.sum_value{
+    display: flex;
+    float: right;
+}
+.sum_value p{
+    padding: 10px;
+}
+input, select, button {
+    outline: none;
+    border: none;
+}
+.form__inp {
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 0.5rem 0;
+    margin: 0.8rem 0 0.8rem 0.3rem;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
